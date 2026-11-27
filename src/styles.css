@@ -92,7 +92,17 @@ body {
   padding: clamp(1.75rem, 5vw, 3.5rem);
   border-radius: 34px;
   text-align: center;
+  overflow: hidden;
   animation: rise 700ms ease both;
+}
+
+.gachi {
+  display: block;
+  width: calc(100% + 2 * clamp(1.75rem, 5vw, 3.5rem));
+  height: clamp(190px, 34vw, 270px);
+  margin: calc(-1 * clamp(1.75rem, 5vw, 3.5rem)) calc(-1 * clamp(1.75rem, 5vw, 3.5rem)) 1.45rem;
+  object-fit: cover;
+  object-position: center 42%;
 }
 
 .kicker {
@@ -105,7 +115,7 @@ body {
 
 h1 {
   margin: 0;
-  font-size: clamp(2.6rem, 9vw, 4.6rem);
+  font-size: clamp(2.4rem, 8vw, 4.1rem);
   line-height: 1.04;
   color: #fff1d9;
 }

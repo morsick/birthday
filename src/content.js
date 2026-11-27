@@ -1,16 +1,16 @@
 // Все тексты приглашения — здесь. Поменяйте значения и сделайте push.
 
 export const invite = {
-  kicker: 'Приглашение',
-  title: 'День рождения',
-  host: 'Имя именинника',
+  kicker: '⚣Приглашение на bondage gay website⚣',
+  title: 'Boy next door',
+  host: 'Dungeon master',
   message:
-    'Буду очень рад(а) видеть тебя на моём празднике. Будет вкусно, весело и тепло — приходи!',
+    'Let’s celebrate and suck some dick.',
   details: [
-    { label: 'Когда', value: '1 января, 18:00' },
-    { label: 'Где', value: 'Адрес или название места' },
-    { label: 'Дресс-код', value: 'Свободный' },
+    { label: 'Когда', value: 'Right away, sir' },
+    { label: 'Где', value: 'The dungeon' },
+    { label: 'Дресс-код', value: 'Leather' },
   ],
-  note: 'Пожалуйста, подтверди, что придёшь, до 25 декабря.',
-  signature: 'Жду тебя!',
+  note: 'Ass we can. Fisting is 300 bucks.',
+  signature: 'Take it, boi ♂',
 }
