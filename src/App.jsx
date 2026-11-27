@@ -1,4 +1,5 @@
 import { invite } from './content'
+import gachiArt from './gachi.jpg'
 
 export default function App() {
   return (
@@ -8,6 +9,10 @@ export default function App() {
 
       <main className="layout">
         <section className="invite panel">
+          <img
+            className="gachi"
+            src={gachiArt}
+          />
           <p className="kicker">{invite.kicker}</p>
           <h1>{invite.title}</h1>
           <p className="host">{invite.host}</p>
